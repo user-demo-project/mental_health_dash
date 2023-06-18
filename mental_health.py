@@ -205,7 +205,7 @@ if authentication_status:
         with col4:
             time_utilized=st.selectbox("Time Utilized", ["Yes","NO"])
         with col5:
-            family=st.selectbox("Do you find yourself more connected to your freinds, family and relatives?", ["Yes","NO"])
+            family=st.selectbox("Do you feel connected to your closed ones?", ["Yes","NO"])
         col6, col7,col8,col9,col10,col11,col12 = st.columns(7)
         with col6:
             age = st.slider('How old are you?', 0, 75, 25)
