@@ -220,7 +220,7 @@ if authentication_status:
         with col11:
             fitness_time = st.number_input('Time spent on fitness',step=1.0,min_value=0.0,key="d")
         with col12:
-            class_time = st.number_input('Time spent on online class',step=1.0,min_value=0.0, ,key="f")
+            class_time = st.number_input('Time spent on online class',step=1.0,min_value=0.0,key="f")
         age=np.int64(age)
         if st.button('Submit'):
             data = {
