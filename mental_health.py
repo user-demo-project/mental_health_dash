@@ -212,7 +212,7 @@ if authentication_status:
         with col7:
             meals = st.number_input('Number Of Meals per day',step=1,key="a")
         with col8:
-            tv_time = st.number_input('Time spent on TV',min_value=0.0,,step=1.0,key="b")
+            tv_time = st.number_input('Time spent on TV',min_value=0.0,step=1.0,key="b")
         with col9:
             social_media_time = st.number_input('Time spent on social media',min_value=0.0, step=1.0,key="c")
         with col10:
