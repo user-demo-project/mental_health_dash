@@ -74,6 +74,7 @@ if authentication_status == None:
     st.warning("Please enter your username and password")
 
 if authentication_status:
+    authenticator.logout('Logout', 'main')
     print("done")
     tab1, tab2 ,tab3= st.tabs(["📈 Data Summary ","📈 Data Insights ", "⚙️ Prediction"])
     data = np.random.randn(10, 1)
